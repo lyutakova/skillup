@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: #333;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.active{
+    background-color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+main{
+    width: 1080px;
+    height: 600px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px 10px red;
+}
+form{
+width: 500px;
+height: 400px;
+background-color: antiquewhite;
+position: relative;
+margin: auto;
+}
+.name{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.email{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.subject{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 200px;
+}
+.textarea{
+    position: absolute;
+    top:160px;
+    left: 50px;
+    width: 200px;
+    height: 150px;
+
+}
+.submit{
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    height: 60px;
+    width: 94px; 
+    color: grey;
+    background-color: rgb(242, 242, 242);
+    border: none;
+    outline: none;
+    border-radius:10px;
+}
+
+.submit:hover{
+    color: #333;
+    background-color: rgb(231, 231, 231);
+}
+section{
+    width: 1080px;
+    height: 600px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px 10px red;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    width: 450px;
+    height: 150px;
+    border: 1px solid #333;
+}
+.section-new{
+    width: 1080px;
+    height: 600px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px 10px red;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.lesson5{
+    width: 220px;
+    height: 180px;
+    border: 1px solid #333;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.lesson5:first-child{
+    background-color: rgb(237, 237, 237);
+}
+.lesson5:nth-child(2){
+    background-color: rgb(239, 226, 202);
+}
+.lesson5:nth-child(3){
+background-color: beige;
+}
+.lesson5:nth-child(4){
+    background-color: azure;
+}
+#title{
+    margin-bottom: 20px;
+}
+.button-new{
+    border: none;
+    border-radius: 15px;
+    width: 84px;
+    height: 36px;
+}
+.button-new:hover{
+background-color: rgb(217, 226, 226);
+}

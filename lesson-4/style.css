@@ -1,0 +1,17 @@
+
+/*.relative{
+    position: relative;
+    left: 100px;
+}
+.absolute{
+    position: absolute;
+}*/
+
+.fixed{
+    width: 100px;
+    height: 100px;
+background-color: red;
+position: fixed;
+left: 100px;
+top: 100px;
+}

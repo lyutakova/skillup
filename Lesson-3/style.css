@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p{
+    color: red !important;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+.blue{
+    color: blue;
+}
+#yellow{
+    color: yellow;
+}
+#pink{
+    color: pink;
+}
+
+section{
+    border: 1px solid black;
+}
+
+/*div:nth-child(3){
+    color: red;
+}
+div:nth-child(2){
+    color: green;
+}
+div:first-child{
+    color: yellow;
+}
+div::first-line{
+    font-size: 45px;
+}
+div::before{
+    content: 'hello';
+}
+
+div::after{
+    content: 'hello';
+}*/
+div{
+    border: 1px solid black;
+    width: 1000px;
+    height: 1000px;
+    padding-left: 30px;
+    padding-top: 100px;
+    display: inline-block;
+    margin: 30px;
+}
+div:hover{
+    color: yellow;
+}
+
+span{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+}
