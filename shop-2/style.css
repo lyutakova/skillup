@@ -1,29 +1,23 @@
-*{
+* {
 box-sizing: border-box;
 }
 
+
 body {
-    font-family: 'roboto', sans-serif;
-    background-image: url('images/patt.png');
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(102, 206, 255);
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15 px;
+    padding-left: 15px;
     padding-right: 15px;
 }
 
 header {
     background-color: red;
-}
-
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .row {
@@ -33,7 +27,7 @@ header {
 }
 
 [class*='col-']{
-    padding-right: 15 px;
+    padding-right: 15px;
     padding-right: 15px
 }
 
@@ -58,12 +52,53 @@ header {
 }
 
 .col-6 {
-    flex: 0 0 15%;
-    max-width: 15%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
+
+/* .col-7 {
+    flex: 0 0 75%;
+    max-width: 75%;
+} */
+
+.col-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; 
+} 
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .header {
     background-color: rgba(255, 255, 255,.75);
     height: 100px;
     display: flex;
     align-items: center;
+}
+
+.logo {
+    margin-top: 7px;
+}
+
+.product {
+position: flex;
+}
+
+.product-image {
+    position: relative;
+}
+
+.zoom {
+    position: absolute;
+}
+
+.like {
+    position: absolute;
 }
